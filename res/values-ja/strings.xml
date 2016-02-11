@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">HappyInu</string>
+    <string name="hello_world">ようこそ!</string>
+    <string name="action_settings"> 設定　</string>
+    <string name="title_activity_web_view">画像をアップロード </string>
+    <string name="uploads_disabled">ファイルのアップロードは無効です </string>
+    <string name="choose_upload">　アップロードするファイルを選択してください</string>
+    <string name="title_activity_food_compet_details">食品コレクションについての詳細</string>
+    <string name="title_activity_details_money_request">詳細とゲインリクエスト</string>
+    <string name="in_devpmt">まだ利用できません！まだ開発中です</string>
+    <string name="set_alarm_message">各食事時間のアラームを設定してください</string>
+    <string name="thanks_msg"> NICSを使用していただきありがとうございます。あなたのペットと楽しんで！  </string>
+    <string name="alarm_setted">完了</string>
+    
+    <string name="welcom_msg"> NICSへようこそ</string>
+    <string name="enter_email">あなたのNAISTメールアドレスを入力してください </string>
+    <string name="login">ログイン</string>
+    
+    <string name="food_in_comp">競争の食品 </string>
+    <string name="upload_img">画像をアップロード</string>
+    <string name="feed_me">！！ </string>
+    <string name="points">ポイント=  </string>
+    <string name="points_num_val">200</string>
+    <string name="wallet">財布=  </string>
+    <string name="wallet_num_val">¥¥¥</string>
+    <string name="set_alrm">セット</string>
+    <string name="get_pet_buddy">あなたのペットのために良い仲間を選択してください！ </string>
+    
+    <string name="user_name">名前</string>
+    <string name="user_labo">研究室</string>
+    <string name="date_paymt">支払日</string>
+    <string name="hour_paymt">支払時間</string>
+    <string name="comment">コメントを記入してください </string>
+    <string name="submit_req">送信 </string>
+    <string name="enter_fulln">フルネームを入力してください </string>
+    <string name="enter_labn">研究室名を入力してください </string>
+    <string name="set_dat">日程を選択 </string>
+    <string name="set_time">時間を設定 </string>
+    
+    <string name="pet_name"> ペットの名前:   </string>
+    <string name="pet_name_value">Rex </string>
+    <string name="birth">誕生日:   </string>
+    <string name="birth_value">17-Jul-2015 </string>
+    <string name="age">年齢:   </string>
+    <string name="age_val">02 </string>
+    <string name="age_val_unit">Year(s) </string>
+    <string name="gender">性別:   </string>
+    <string name="gender_val">M </string>
+    <string name="breed">犬種:   </string>
+    <string name="breed_val">G.Retriever </string>
+    <string name="weight">体重:   </string>
+    <string name="weight_val">30 </string>
+    <string name="weight_val_unit">Kg </string>
+    <string name="height">身長:   </string>
+    <string name="height_val">59 </string>
+    <string name="personality">個性:   </string>
+    <string name="origin">出身地:   </string>
+    <string name="origin_val">Great Britain </string>
+    <string name="friends">友達数=   </string>
+    <string name="friends_val">0 </string>
+    <string name="change_petn">ペット名の変更 </string>
+    <string name="change_pet_ph">ペット画像の変更 </string>
+    <string name="friendship_price">契約金:   </string>
+    
+    <string name="menu_pw">メニュー</string>
+    <string name="yen_to_point"> ¥ポイントの変更</string>
+    <string name="Select_please">あなたのイメージを選択し、いくつかの詳細を教えてください</string>
+    <string name="food_type">食事の種類:  </string>
+    <string name="money_sup">マネーのサポート:  </string>
+    <string name="need_more">まだ必要:  </string>
+    <string name="already_got">いい画像:  </string>
+    <string name="images_unit">image(s) </string>
+     
+    
+
+    <string-array name="list_of_options">
+        <item>統計</item>
+        <item>要求報酬</item>
+        <item>開発者の連絡先</item>
+    </string-array>
+
+    <string name="title_activity_rewarded_images">一番好きな食べ物の画像</string>
+    <string name="title_activity_contact_developpers">開発者へのお問合せ</string>
+    <string name="title_activity_after_login">ようこそ NICSへ</string>
+    <string name="title_activity_calendar_food">私の食品帳</string>
+    <string name="title_activity_list_of_alarms">アラームリスト</string>
+    <string name="title_activity_alarm_set">アラーム設定</string>
+    <string name="title_activity_delete_later">後で削除</string>
+    <string name="title_activity_pet_world">私のペットの世界</string>
+    <string name="title_activity_shopping">買い物</string>
+    <string name="title_activity_mydog">私の犬</string>
+    <string name="title_activity_companions">ペットの友達を獲得する </string>
+    <string name="title_activity_walk">ペットと散歩する</string>
+    <string name="title_activity_pet_health">ペットの健康を確認</string>
+    <string name="title_activity_pet_place">ペットと共に有名な場所に訪れる</string>
+    <string name="title_activity_pet_feelings">ペットの調子はどうですか？</string>
+    <string name="title_activity_pet_accessories">ペットのアクセサリーを購入</string>
+    <string name="title_activity_pet_web_view">ペットのFacebook </string>
+
+    <string-array name="sub_menu_array">
+        <item>私の犬</item>
+        <item>買い物</item>
+        <item>ペットの友達を獲得する</item>
+        <item>ペットと散歩する</item>
+        <item>ペットの健康</item>
+        <item>ペットと共に有名な場所に訪れる</item>
+        <item>ペットの調子</item>
+        <item>ペットのアクセサリー</item>
+    </string-array>
+    
+   
+    
+    <string name="foodD">食べ物の詳細:   </string>
+     <string name="prevFeeding">前回の餌やりからの時間</string>
+     <string name="gameStat">ゲームの参加統計</string>
+    <string name="dog_status_hello">こんにちは！</string>
+    <string name="dog_status_eat">私は今、食事中です。ありがとう。</string>
+    <string name="dog_status_hungry">お腹がすいたよ！</string>
+    <string name="dog_status_lonely">寂しいよ…私には友だちがいないの。</string>
+    <string name="achiev"> 実績</string>
+  	<string name="sorryNextLevel"> この機能は次のレベルで開放されます。ロックを解除するためにポイントを獲得しよう。</string>
+  	<string name="sorryPurch"> あなたのペットはまだ食べ物を持っています。</string>
+     <string name="sorryPurchTitle"> すみません！</string>
+     <string name="level2_value"> 2 </string>
+    <string name="level3_value"> 3 </string>
+    <string name="callPetFriendTitle"> Okay to play with  </string>
+   	<string name="callPetFriendMsg"> あなたのペットは、次の友達との遊びを本当に楽しんでいます </string>
+   	<string name="onlyNAISTemail"> NAISTメールのみ許可されています。</string>
+   	<string name="toastdogEating"> ご購入ありがとうございます！あなたのペットが今食べていますよ！ </string>
+   	<string name="sorryCallFriend"> あなたのペットは既に友達と遊んでいます。</string>
+   	<string name="ObjectifLevelTtile"> このレベルの目標</string>
+   	
+   	
+   	<string-array name="list_of_options_howTo">
+        <item>食べ物の写真の撮り方</item>
+        <item>About the kitchen scale</item>
+        <item>ゲームのストーリー</item>
+    </string-array>
+    
+   	<string name="title_activity_how_to_take_picture">いい写真でより多くのポイントを獲得しよう</string>
+   	<string name="storyLineTitle"> ゲームのストーリー </string>
+    <string name="storyLineText"> あなたは子犬を動物保護施設から救出しました。この子は、か弱くてひとりぼっちです。あなたは、30日以内に彼の世話をしなければなりません。
+        \n そうすることにより、あなたの子犬はコンテストに出場することがっでき、7000円または15000円の賞金を獲得することができます。
+        \n あなたのペットがコンテストの準備をするためには、あなたは餌をやったり、友達を連れてきたり、散歩に連れて行ったり、等をしなければなりません。
+        \n 勝利の判定は、子犬の健康状態、精神状態、そして子犬の衣装やおもちゃなどに対する他の出場者の投票、等によって行われます。   </string>
+    
+    <string-array name="list_of_options_survey">
+        <item>調査 1</item>
+        <item>調査 2</item>
+        <item>調査 3</item>
+        <item>調査 4</item>
+    </string-array>
+    
+    <string name="howTakePictTitle"> 食べ物の写真の撮り方 </string>
+    <string name="howTakePictText"> 器の上にお箸一膳を置き、他はトレーの上に置いてください。\n 食べ物とお箸が画面に収まるように、写真をそれぞれ横向きに撮影します。\n 写真は、食べ物の真上から撮影してください（横や斜めからの撮影はNGです）。</string>
+    
+     <!-- 
+    New strings, must be translated
+     -->
+         <string name="AnnaWelcomeMsg"> Hi! I am Anna and I will guide you through the game! Click on me, when you need info!  </string>
+     		<string name="AnnaAfterLogMsg"> Care for your puppy and help in scientific research! \nClick on the pet image to enter his word!  </string>
+         <string name="ObjectifLevel1"> レベル1を終了するには、3回ペットに餌やりしてください. \nClick on the Menu button and choose \"Shopping\". 
+        \n Double click on a food item to buy it! </string>
+         <string name="ObjectifLevel2"> レベル2を終了するには、8回ペットに餌やりし、2匹の友達を連れてきてください。 \nClick on the button \"Menu\" and choose \"Shopping\" or \"Companions\" </string>
+             <string name="ObjectifLevel3"> レベル3を終了するには、10回ペットに餌やりし、3匹の友達を連れてきてください。 \nClick on the button \"Menu\" and choose \"Shopping\" or \"Companions\" or \"Walking\"</string>
+          <string name="useofScaleText"> The kitchen scale allows you to get 100¥ and 100 points anytime you use it and take a picture.
+         							\nJust put the food on the scale and take a picture from a top position, where it is possible 
+         							to read the weight displayed on the screen of the scale. </string>
+         
+              <string name="sorryGoWalk"> You already took your pet for an outside walk today.\n You can not take him out 2 times in the same 24h. \n Please, try again later.\n\n </string>
+          
+         
+     
+    
+</resources>

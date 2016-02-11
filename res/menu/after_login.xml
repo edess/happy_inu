@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edess.example.webviewimagecollection.AfterLogin" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/alarm_settings" android:title="Alarms" android:icon="@drawable/ic_action_alarms" android:tint="#ffffff"
+        android:drawable="@android:color/white" android:orderInCategory="1" app:showAsAction="ifRoom|withText" />
+
+</menu>

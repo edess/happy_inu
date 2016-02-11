@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/after_login_2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edess.example.webviewimagecollection.AfterLogin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/anna" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/AnnaAfterLogMsg"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+       <ScrollView
+        android:id="@+id/scrollViewWelcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="60dp"
+       android:gravity="center_vertical|center_horizontal"
+       android:orientation="vertical" >
+
+       <LinearLayout
+           android:id="@+id/linearLayPetStatus"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/icon_bubble"
+           android:gravity="center_horizontal"
+           android:orientation="vertical" >
+
+           <TextView
+               android:id="@+id/tvPetMessage"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:layout_marginTop="10dp"
+               android:text="@string/feed_me"
+               android:textColor="@color/blue"
+               android:textSize="15sp"
+               android:textStyle="italic" />
+
+       </LinearLayout>
+
+       <com.abhi.gif.lib.AnimatedGifImageView
+           android:id="@+id/animatedGifImageView"
+           android:layout_width="wrap_content"
+           android:layout_height="150dp"
+           android:layout_marginBottom="5dp" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:background="@color/white"
+           android:gravity="center_vertical|center_horizontal"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/tvPrevF"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/prevFeeding"
+               android:textColor="@color/black" />
+
+           <TextView
+               android:id="@+id/tvPreviousFeed"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="3dp"
+               android:textColor="@color/black" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/points"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/tvPoints"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/points_num_val"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="@color/red" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/tvAgeFriend"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="25dp"
+           android:text="@string/wallet"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/tvMoneyWallet"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/wallet_num_val"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="@color/blue" />
+
+   </LinearLayout>
+
+  <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewScale"
+            android:layout_width="188dp"
+            android:layout_height="182dp"
+            android:layout_gravity="center_horizontal|center"
+            android:src="@drawable/campaign2"
+            android:contentDescription="image of campaign" />
+
+    </LinearLayout> -->
+    
+    <LinearLayout
+        android:id="@+id/buttonsWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center" >
+
+        <ImageButton
+            android:id="@+id/imageButtonSettings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_submenu"
+            android:src="@drawable/settings_50_2" />
+
+        <ImageButton
+            android:id="@+id/imageBtnCalendar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_submenu"
+            android:src="@drawable/calendar_filled_50_2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSurvey"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_submenu"
+            android:src="@drawable/s_50" />
+
+        <ImageButton
+            android:id="@+id/imageButtonHowTo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_submenu"
+            android:src="@drawable/questions_50" />
+
+        <ImageButton
+            android:id="@+id/imageButtonInfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_submenu"
+            android:src="@drawable/info_50" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_marginTop="30dp"
+         android:layout_weight="1"
+         android:gravity="center|bottom" >
+
+        <Button
+            android:id="@+id/btnCompetImg"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/button_submenu"
+            android:minWidth="70dip"
+            android:text="@string/food_in_comp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnUploadAnImage"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="0"
+            android:background="@drawable/button_submenu"
+            android:text="@string/upload_img"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+   </LinearLayout>
+
+
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

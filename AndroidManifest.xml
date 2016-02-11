@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edess.example.webviewimagecollection"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="edess.example.webviewimagecollection.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/title_activity_web_view"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AfterLogin" />
+        </activity>
+        <activity
+            android:name=".FoodCompetDetails"
+            android:label="@string/title_activity_food_compet_details"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AfterLogin" />
+        </activity>
+        <activity
+            android:name=".DetailsMoneyRequest"
+            android:label="@string/title_activity_details_money_request"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AfterLogin" />
+        </activity>
+        <activity
+            android:name=".RewardedImages"
+            android:label="@string/title_activity_rewarded_images" >
+        </activity>
+        <activity
+            android:name=".ContactDeveloppers"
+            android:label="@string/title_activity_contact_developpers" >
+        </activity>
+        <activity
+            android:name=".AfterLogin"
+            android:label="@string/title_activity_after_login"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".CalendarFood"
+            android:label="@string/title_activity_calendar_food" >
+        </activity>
+
+        <receiver
+            android:name=".RebootReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ListOfAlarms"
+            android:label="@string/title_activity_list_of_alarms" >
+        </activity>
+
+        <service
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".AlarmSet"
+            android:label="@string/title_activity_alarm_set" >
+        </activity>
+        <activity
+            android:name=".DeleteLater"
+            android:label="@string/title_activity_delete_later" >
+        </activity>
+        <activity
+            android:name=".PetWorld"
+            android:label="@string/title_activity_pet_world"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AfterLogin" />
+        </activity>
+        <activity
+            android:name=".PetShopping"
+            android:label="@string/title_activity_shopping"
+            android:parentActivityName=".PetWorld" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PetWorld" />
+        </activity>
+        <activity
+            android:name=".PetMydog"
+            android:label="@string/title_activity_mydog"
+            android:parentActivityName=".PetWorld" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.PetWorld" />
+        </activity>
+        <activity
+            android:name=".PetCompanions"
+            android:label="@string/title_activity_companions"
+            android:parentActivityName=".PetWorld" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.PetWorld" />
+        </activity>
+        <activity
+            android:name=".PetWalk"
+            android:label="@string/title_activity_walk" >
+        </activity>
+        <activity
+            android:name=".PetHealth"
+            android:label="@string/title_activity_pet_health" >
+        </activity>
+        <activity
+            android:name=".PetPlace"
+            android:label="@string/title_activity_pet_place" >
+        </activity>
+        <activity
+            android:name=".PetFeelings"
+            android:label="@string/title_activity_pet_feelings" >
+        </activity>
+        <activity
+            android:name=".PetAccessories"
+            android:label="@string/title_activity_pet_accessories" >
+        </activity>
+        <activity
+            android:name=".PetWebView"
+            android:label="@string/title_activity_pet_web_view"
+            android:parentActivityName=".PetMydog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.PetMydog" />
+        </activity>
+        <activity
+            android:name=".StatisticInfo"
+            android:label="@string/title_activity_statistic_info"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".CalendarFeedback"
+            android:label="@string/title_activity_calendar_feedback"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".CalendarFeedback" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Level2_PetWorld"
+            android:label="@string/title_activity_level2__pet_world"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Level3_PetWorld"
+            android:label="@string/title_activity_level3__pet_world"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".HowToTakePicture"
+            android:label="@string/title_activity_how_to_take_picture"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Survey1"
+            android:label="@string/title_activity_survey1"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Survey2"
+            android:label="@string/title_activity_survey2"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Survey3"
+            android:label="@string/title_activity_survey3"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Survey4"
+            android:label="@string/title_activity_survey4"
+            android:parentActivityName=".AfterLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edess.example.webviewimagecollection.AfterLogin" />
+        </activity>
+        <activity
+            android:name=".Level4_PetWorld"
+            android:label="@string/title_activity_level4__pet_world" >
+        </activity>
+    </application>
+
+</manifest>

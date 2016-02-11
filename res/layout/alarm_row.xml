@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--
+     <ImageButton
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@android:drawable/list_selector_background"
+     android:src="@drawable/ic_action_edit"
+     android:id="@+id/editbutton"
+     android:layout_centerVertical="true"
+     android:layout_alignParentRight="true"
+     android:onClick="editAlarm"
+     />
+     -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/aqua" >
+
+        <TextView
+            android:id="@+id/alarmName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="8dp"
+            android:text="Alarm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/ic_action_next_item" />
+
+    </RelativeLayout>
+
+</LinearLayout>

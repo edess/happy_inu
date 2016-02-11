@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Happy Inu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web_view">Upload your images</string>
+    <string name="uploads_disabled">File uploads are disabled.</string>
+    <string name="choose_upload">Choose file for upload</string>
+    <string name="title_activity_food_compet_details">Details about the foods collection</string>
+    <string name="title_activity_details_money_request">Details and Gain Request</string>
+    <string name="in_devpmt">Not yet available!! Still in development.</string>
+    <string name="set_alarm_message">Please set the alarm for each meal time. </string>
+    <string name="thanks_msg">Thanks for using HappyInu.\nHave fun with your pet!!  </string>
+    <string name="alarm_setted">Done </string>
+    <string name="welcom_msg">Welcome to NICS </string>
+    <string name="enter_email">Please Enter your NAIST email address </string>
+    <string name="login">Login</string>
+    <string name="food_in_comp">Recommended foods </string>
+    <string name="upload_img">Upload Image </string>
+    <string name="feed_me">!! </string>
+    <string name="points">Points=  </string>
+    <string name="points_num_val">XXX</string>
+    <string name="wallet">Wallet=  </string>
+    <string name="wallet_num_val">¥¥¥</string>
+    <string name="set_alrm">Set</string>
+    <string name="get_pet_buddy">Choose a good buddy for your pet !</string>
+    <string name="user_name">Name</string>
+    <string name="user_labo">Laboratory</string>
+    <string name="date_paymt">Payement day</string>
+    <string name="hour_paymt">Best time </string>
+    <string name="comment">Write your comments, if you have </string>
+    <string name="submit_req">Submit </string>
+    <string name="enter_fulln">Please enter you fullname </string>
+    <string name="enter_labn">Please select your lab. name </string>
+    <string name="set_dat">SELECT DATE </string>
+    <string name="set_time">SET TIME </string>
+    <string name="pet_name"> Pet name:   </string>
+    <string name="pet_name_value">Rex </string>
+    <string name="birth">Birthday:   </string>
+    <string name="birth_value">17-Jul-2013 </string>
+    <string name="age">Age:   </string>
+    <string name="age_val">02 </string>
+    <string name="age_val_unit">Year(s) </string>
+    <string name="gender">Gender:   </string>
+    <string name="gender_val">M </string>
+    <string name="breed">Breed:   </string>
+    <string name="breed_val">G.Retriever </string>
+    <string name="weight">Weight:   </string>
+    <string name="weight_val">30 </string>
+    <string name="weight_val_unit">Kg </string>
+    <string name="height">Height:   </string>
+    <string name="height_val">59 </string>
+    <string name="personality">Personality:   </string>
+    <string name="origin">Origin:   </string>
+    <string name="origin_val">Great Britain </string>
+    <string name="friends">Friends(s)=   </string>
+    <string name="friends_val">0 </string>
+    <string name="change_petn">Change pet name </string>
+    <string name="change_pet_ph">Change pet picture </string>
+    <string name="friendship_price">Rent:   </string>
+    <string name="menu_pw">Menu </string>
+    <string name="yen_to_point">Change ¥ to points</string>
+    <string name="Select_please">Please select your image and give us some details</string>
+    <string name="food_type">Food type:  </string>
+    <string name="money_sup">Support:  </string>
+    <string name="need_more">Still need:  </string>
+    <string name="already_got">Good images:  </string>
+    <string name="images_unit">  image(s) </string>
+    <string name="level">Level:  </string>
+    <string name="level_value"> 1 </string>
+    <string name="level2_value"> 2 </string>
+    <string name="level3_value"> 3 </string>
+    <string name="score">Score:  </string>
+    <string name="foodD">Food Details:   </string>
+    <string name="gameStat"> Game Participation Statistics</string>
+    <string name="achiev"> Achievements:  </string>
+    <string name="sorryNextLevel"> This feature is available on next levels. \nPlease get more points to unlock it.</string>
+    <string name="sorryPurch"> Your pet still has food.</string>
+    <string name="sorryPurchTitle"> SORRY!!!</string>
+    <string name="sorryCallFriend"> Your pet is already playing with his friend.\n You can not get him another friend in the same 24h. \n Please, try again later.\n\n </string>
+    <string name="sorryGoWalk"> You already took your pet for an outside walk today.\n You can not take him out 2 times in the same 24h. \n Please, try again later.\n\n </string>
+    <string name="ObjectifLevelTtile"> Objectif of this level</string>
+    <string name="ObjectifLevel1"> Feed your pet 3 times to finish the level 1. \nClick on the button \"Menu\" and choose \"Shopping\". 
+        \n Double click on a food item to buy it! </string>
+    <string name="ObjectifLevel2"> Feed your pet 8 times and bring him 2 friends to finish the level 2. \nClick on the button \"Menu\" and choose \"Shopping\" or \"Companions\". </string>
+    <string name="ObjectifLevel3"> Feed your pet 10 times, bring him 3 friends, and go to a walk outside 2 times to finish the level 3. \nClick on the button \"Menu\" and choose \"Shopping\" or \"Companions\" or \"Walking\".</string>
+    <string name="callPetFriendTitle"> Okay to call </string>
+    <string name="callPetFriendMsg"> Your pet will really enjoy to play with  </string>
+    <string name="onlyNAISTemail"> Only NAIST email address is accepted  </string>
+    <string name="toastdogEating"> Thanks for buying this food! Your pet is eating now!  </string>
+    <string name="notEnoughPoints"> Sorry, you do not have enough points to get this item.  </string>
+    <string name="storyLineTitle"> Game story </string>
+    <string name="storyLineText"> You rescue a puppy from an animal shelter. He is weak and lonely. Your goal is to take care of him within 30 days.
+        \nBy doing so, you make your puppy ready to enter a competition, in which you can win 15000¥ or 7000¥.\n In order to get your pet ready for the 
+        competition, you need to feed him, get him some friends, take him out,etc. \nThe judgement of winners will be based on the puppies health, 
+        feelings, and votes from other competitors for the best dressed puppy, puppy with the best toys,etc. </string>
+    <string name="useofScaleTitle"> When using a kitchen scale </string>
+    <string name="useofScaleText"> The kitchen scale allows you to get 100¥ and 100 points anytime you use it and take a picture.
+         							\nJust put the food on the scale and take a picture from a top position, where it is possible 
+         							to read the weight displayed on the screen of the scale. </string>
+    <string name="howTakePictTitle"> How to take the food picture ? </string>
+    <string name="howTakePictText"> Put one of the chosptick on the bowl, and the other one on the plate. \nTake the photo either in landscape or portrait, 
+        with the food and chopsticks matching the screen view. \nPlease take the photo from the top, not from left or right side.  </string>
+
+    <string-array name="list_of_options">
+        <item>My Statistics</item>
+        <item>Request rewards</item>
+        <item>Contact developers</item>
+    </string-array>
+    <string-array name="sub_menu_array">
+        <item>Dog</item>
+        <item>Shopping</item>
+        <item>Companions</item>
+        <item>Walking</item>
+        <item>Health</item>
+        <item>Places</item>
+        <item>Feelings</item>
+        <item>Accessories</item>
+    </string-array>
+    <string-array name="list_of_options_howTo">
+        <item>HowTo take the foods photo</item>
+        <item>About the kitchen scale</item>
+        <item>Game story</item>
+    </string-array>
+    <string-array name="list_of_options_survey">
+        <item>Survey 1 (Level 1)</item>
+        <item>Survey 2 (Level 2)</item>
+        <item>Survey 3 (Level 3)</item>
+        <item>Survey 4 (Level 4)</item>
+    </string-array>
+    <string-array name="list_of_settings_options">
+        <item>Alarms settings</item>
+    </string-array>
+
+    <string name="facebookMessage"> In the upcoming version, you will be able to create a facebook or Instagram account for your pet, to share 
+        pictures of your good times!! \n\n</string>
+    <string name="facebookMessageTitle"> Upcoming features </string>
+    <string name="dog_status_hello">Hello !</string>
+    <string name="dog_status_eat">I am eating now.\n Thank you!</string>
+    <string name="dog_status_hungry">I am hungry !</string>
+    <string name="dog_status_lonely">I feel lonely. I have no friends !</string>
+    <string name="dog_status_not_alone">Thank you!\n I am playing with my friends.</string>
+    
+    <string name="nextVersionWait"> Please wait for the next update of the game! \nThank you for your comprehension.</string>
+    
+    <string name="title_activity_rewarded_images">My best food images</string>
+    <string name="title_activity_contact_developpers">Contact Developpers</string>
+    <string name="title_activity_after_login">Welcome!!</string>
+    <string name="title_activity_calendar_food">My Food Journal</string>
+    <string name="title_activity_list_of_alarms">List of alarms</string>
+    <string name="title_activity_alarm_set">Alarm Settings</string>
+    <string name="title_activity_delete_later">DeleteLater</string>
+    <string name="title_activity_pet_world">My Pet world</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_mydog">Pet profile</string>
+    <string name="title_activity_companions">Get your pet some friends</string>
+    <string name="title_activity_walk">Take a walk with your pet and meet people</string>
+    <string name="title_activity_pet_health">Check your pet Health</string>
+    <string name="title_activity_pet_place">Visit famous place with your pet</string>
+    <string name="title_activity_pet_feelings">How is your pet ?</string>
+    <string name="title_activity_pet_accessories">Buy your pet accessories</string>
+    <string name="title_activity_pet_web_view">Pet faceBook</string>
+    <string name="prevFeeding">Time since last feeding:  </string>
+    <string name="title_activity_statistic_info">StatisticInfo</string>
+    <string name="title_activity_calendar_feedback">CalendarFeedback</string>
+    <string name="title_activity_calendar">Calendar Activity</string>
+    <string name="title_activity_level2__pet_world">Level 2 PetWorld</string>
+    <string name="title_activity_level3__pet_world">Level 3 PetWorld</string>
+    <string name="title_activity_how_to_take_picture">Get More Points from Good Pictures</string>
+    <string name="title_activity_survey1">Survey 1</string>
+    <string name="title_activity_survey2">Survey 2</string>
+    <string name="title_activity_survey3">Survey 3</string>
+    <string name="title_activity_survey4">Survey 4</string>
+    <string name="AnnaWelcomeMsg"> Hi! I am Anna and I will guide you through the game! Click on me, when you need info!  </string>
+    <string name="AnnaAfterLogMsg"> Care for your puppy and help in scientific research! \nClick on the pet image to enter his world! \nClick the \"S\" button to
+	    take the Surveys and get bonus points!  </string>
+    <string name="whengoing_toawalk"> Talk a walk with your pet will cost you <b>300 points</b>! \nThe municipality office uses these points to clean the town!   </string>
+    <string name="whengoing_toawalk_title"> Taking a walk with your pet ? </string>
+    <string name="title_activity_level4__pet_world">Level 4 PetWorld</string>
+
+</resources>
